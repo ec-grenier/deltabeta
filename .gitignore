@@ -1,0 +1,5 @@
+# ignore outputs
+plot_delta_beta.R
+output/
+.ipynb_checkpoints/
+data/covars/
