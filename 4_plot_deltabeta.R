@@ -35,7 +35,7 @@ region_list = c('CAN.11.259.4274', 'CAN.11.269.4448')
 #  - gcm:      CCSM4
 #  - ssp:      SSP2, SSP3
 #  - year:     2025, 2050, 2099
-specs = expand.grid(agegroup = c('oldest'), 
+specs = expand.grid(agegroup = c('young', 'older', 'oldest', 'combined'), 
                     rcp = c('rcp85'), 
                     gcm = c('CCSM4'),
                     iam = c('low'),
